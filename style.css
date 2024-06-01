@@ -1,13 +1,19 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
     font-size: 12px;
     max-width: 960px;
-    margin: auto;
+    margin: 2px auto 0 auto ;
+    width: 1000px;
+    height: 614px;
+    border: 2px solid black;
+    padding: 50px;
+
 }
 h1 {
+    font-style: unset;
     font-size: 3em;
     letter-spacing: .6em;
-    padding-top: 1em;
+    padding-top: 0em;
     padding-bottom: 1em;
 }
 
@@ -26,6 +32,7 @@ h3 {
         margin-top: 3em;
     }
     header {
+        font-variant-ligatures: discretionary-ligatures;
         text-align: center;
         margin: auto 2em;
     }
@@ -39,6 +46,7 @@ h3 {
     }
     
     p {
+
         margin: .2em auto
     }
     
@@ -49,6 +57,7 @@ h3 {
     }
     
     h1, h2, h3 {
+        font-variant-ligatures: historical-ligatures;
         font-weight: 100;
         margin-bottom: 0;
     }
